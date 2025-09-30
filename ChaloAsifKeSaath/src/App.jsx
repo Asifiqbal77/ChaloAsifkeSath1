@@ -1,12 +1,15 @@
 
 import './App.css'
-import Landingpage from "./Landingpage";
-
+ import Landingpage from "./Landingpage";
+//import Responsive from './Responsive';
+import Login from './Login';
 function App() {
 
   return (
     <>
-     <Landingpage/>
+    {/* <Login/> */}
+     {/* <Responsive/> */}
+     <Landingpage/> 
     </>
   );
 }

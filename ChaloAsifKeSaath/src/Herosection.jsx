@@ -3,20 +3,9 @@ import pic1 from './assets/pic1.avif';
 import kar2 from './assets/kar2.avif';
 import lah2 from './assets/lah2.avif';
 
-/**
- * Herosection
- *
- * - Reusable carousel component using Bootstrap 5 classes.
- * - Accepts an optional `slides` prop (array of { src, alt, caption? }).
- * - Uses lazy loading, descriptive alt text, indicators, and controls.
- *
- * Usage:
- *  <Herosection />
- *  or
- *  <Herosection slides={[{src:..., alt:...}, ...]} />
- */
+
 function Herosection({ slides }) {
-  // default slides (you can pass a custom `slides` prop)
+
   const defaultSlides = [
     { src: pic1, alt: 'Scenic mountains and lake — Slide 1', caption: 'Explore the mountains' },
     { src: kar2, alt: 'Sunset over city skyline — Slide 2', caption: 'Explre City Lahore' },
