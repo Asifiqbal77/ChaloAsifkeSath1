@@ -1,6 +1,6 @@
 import React from "react";
 
-// Images import
+
 import pic1 from "./assets/pic1.avif";
 import pic2 from "./assets/pic2.avif";
 import kar1 from "./assets/kar1.avif";
