@@ -1,10 +1,14 @@
+
+import weblogo from "./assets/weblogo.png";
+import { Link } from "react-router-dom";
 function Navigationbar() {
   return (
-    <nav className="navbar navbar-expand-lg bg-success sticky-top shadow-sm">
+    <nav className="navbar navbar-expand-lg bg-success sticky-top shadow-sm ">
       <div className="container">
         {/* Brand */}
-        <a className="navbar-brand text-white fw-bold" href="#">
-          ChaloAsifKeSaath
+        <a className="navbar-brand text-white fw-bold" d-flex align-items-center href="#">
+          <img src={weblogo} alt="Logo" width="70" height="60" className="me-2 rounded-circle" />
+          Pakistan Peaks and Plains
         </a>
 
         {/* Toggler (visible on small screens only) */}
@@ -28,18 +32,46 @@ function Navigationbar() {
                 Home
               </a>
             </li>
+           
+            <li className="nav-item dropdown">
+  <a
+    className="nav-link dropdown-toggle text-white" 
+    href="#"
+    role="button"
+    data-bs-toggle="dropdown"
+    aria-expanded="false"
+  >
+    Tours 
+  </a>
+  <ul className="dropdown-menu">
+    <li><a className="dropdown-item" href="#">Hunza Tours</a></li>
+    <li><a className="dropdown-item" href="#">Swat Tours</a></li>
+    <li><a className="dropdown-item" href="#">Fairy Meadows Tours</a></li>
+    <li><a className="dropdown-item" href="#">Azad Kashmir Tours</a></li>
+    <li><a className="dropdown-item" href="#">Lahore Tours</a></li>
+  </ul>
+</li>
+
             <li className="nav-item">
-              <a className="nav-link text-white" href="#destinations">
-                Destinations
+              <a className="nav-link text-white" href="#">
+                Honeymoon Tours
               </a>
             </li>
-            <li className="nav-item">
-              <a className="nav-link text-white" href="#packages">
-                Tour Packages
+
+             <li className="nav-item">
+              <a className="nav-link text-white" href="#">
+                Cars
               </a>
             </li>
+
             <li className="nav-item">
-              <a className="nav-link text-white" href="#about">
+              <a className="nav-link text-white" href="#">
+                Blog
+              </a>
+            </li>
+           
+            <li className="nav-item">
+              <a className="nav-link text-white" href="#">
                 About Us
               </a>
             </li>
@@ -48,18 +80,17 @@ function Navigationbar() {
                 On medium screens → smaller button 
                 On small screens → full width button */}
             <li className="nav-item mt-2 mt-lg-0">
-              <a
+              <Link to = '/login'
                 className="btn btn-outline-light btn-sm ms-lg-2 w-100 w-md-auto"
-                href="#login"
               >
                 Login
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-  );
-}
+      );
+      }
 
-export default Navigationbar;
+ export default Navigationbar;

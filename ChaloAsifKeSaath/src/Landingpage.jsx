@@ -1,7 +1,7 @@
-// import Navigationbar from "./Navigationbar";
-// import Herosection from "./Herosection";
-// import Destinations from "./destinations";
-// import Footer from "./footer";
+import Navigationbar from "./Navigationbar";
+import Herosection from "./Herosection";
+import Destinations from "./destinations";
+import Footer from "./Footer";
 //  import ProductDetails from "./ProductDetails.module";
 //  import Product from "./Product";
 // import Button from "./Button";
@@ -12,10 +12,10 @@
     {/* <Button/> */}
     {/* <ProductDetails/> */}
     {/* <Product/>*/}
-     {/* <Navigationbar/>
+     <Navigationbar/>
     <Herosection/>
     <Destinations/> 
-    <Footer/>   */}
+    <Footer/>  
     
       </>
     );

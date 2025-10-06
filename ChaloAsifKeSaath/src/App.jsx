@@ -3,13 +3,18 @@ import './App.css'
  import Landingpage from "./Landingpage";
 //import Responsive from './Responsive';
 import Login from './Login';
+import { Route , Routes } from 'react-router-dom';
 function App() {
 
   return (
     <>
-    <Login/> 
-      {/* <Responsive/>
-     <Landingpage/>  */}
+
+    <Routes>
+
+      <Route  path='/login' element = {<Login />}/>
+      <Route path = '/' element = {<Landingpage />} />
+    </Routes>
+     
     </>
   );
 }
