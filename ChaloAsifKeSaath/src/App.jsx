@@ -8,6 +8,7 @@ function App() {
 
   return (
     <>
+<<<<<<< HEAD
 
     <Routes>
 
@@ -15,6 +16,11 @@ function App() {
       <Route path = '/' element = {<Landingpage />} />
     </Routes>
      
+=======
+    {/* <Login/> 
+   <Responsive/> */}
+     <Landingpage/> 
+>>>>>>> save-local-work
     </>
   );
 }
