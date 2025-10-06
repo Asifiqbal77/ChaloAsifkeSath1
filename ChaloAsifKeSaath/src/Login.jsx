@@ -12,8 +12,7 @@ function Login() {
          justifyContent: 'center',
          alignItems: 'center',
        }}
-    >    
-    {/* className='position-absolute top-50 start-50 translate-middle border border-danger' */}
+    > 
       <div 
       
         style={{
@@ -21,7 +20,7 @@ function Login() {
           borderRadius: '12px',
           padding: '30px',
           width: '300px',
-          //boxShadow: '0 4px 20px rgba(0,0,0,0.1)',
+          
         }}
       >
         <div style={{ display: 'flex', marginBottom: '20px' }}>
@@ -63,7 +62,7 @@ function Login() {
         </div>
 
 
-                {/* style={{ marginBottom: '20px', fontWeight: 'bold', fontSize: '22px' }} */}
+
 
         {isLogin ? (
           <>
@@ -101,32 +100,40 @@ function Login() {
           <>
           <h2 className='mb-5  fs-4'>Signup Form</h2>
 
-          <div className='row mb-2'>
-              <div className='col-2 p-2 ' >Name</div>
-              <div className='col-10'>
+          <div className='row'>
+              <div className='col ' >Name</div>
+              </div>
+              <div classname='row '>
+              <div className='col'>
                 <input type="text" placeholder="FullName here" className='form-control' />
               </div>
              </div>
 
 
-            <div className='row mb-2'>
-              <div className='col-2 p-2' >Email</div>
-              <div className='col-10'>
+            <div className='row'>
+              <div className='col' >Email</div>
+              </div>
+              <div className='row'>
+              <div className='col'>
                 <input type="text" placeholder="email here" className='form-control' />
               </div>
             </div>
                  
 
-                 <div className='row mb-4'>
-              <div className='col-3 p-2' >password</div>
-              <div className='col-9'>
+                 <div className='row'>
+              <div className='col-3' >password</div>
+              </div>
+              <div classname='row'>
+              <div className='col'>
                 <input type="password" placeholder="pasword" className='form-control'  />
               </div>
             </div>
 
-             <div className='row mb-4'>
-              <div className='col-3 p-2' >psasword</div>
-              <div className='col-9'>
+             <div className='row'>
+              <div className='col' >psasword</div>
+                </div>
+                <div className='row'>
+              <div className='col'>
                 <input type="password" placeholder="Confirm password" className='form-control'  />
               </div>
             </div>
