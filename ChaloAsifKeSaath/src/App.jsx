@@ -4,23 +4,22 @@ import './App.css'
 //import Responsive from './Responsive';
 import Login from './Login';
 import { Route , Routes } from 'react-router-dom';
+// import loogin from './Loogin';
+//import Workers from './Workers';
 function App() {
 
   return (
     <>
-<<<<<<< HEAD
 
     <Routes>
-
-      <Route  path='/login' element = {<Login />}/>
+    <Route  path='/login' element = {<Login />}/>
       <Route path = '/' element = {<Landingpage />} />
-    </Routes>
-     
-=======
-    {/* <Login/> 
-   <Responsive/> */}
-     <Landingpage/> 
->>>>>>> save-local-work
+    </Routes> 
+          {/* <Workers/>
+          <Loogin/> 
+       <Login/> 
+      <Responsive/> 
+      <Landingpage/> */}
     </>
   );
 }

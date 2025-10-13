@@ -1,11 +1,9 @@
 import Navigationbar from "./Navigationbar";
 import Herosection from "./Herosection";
-import Destinations from "./destinations";
-<<<<<<< HEAD
+import Destinations from "./Destinations";
 import Footer from "./Footer";
-=======
-import Footer from "./footer";
->>>>>>> save-local-work
+import Tours from "./Tours";
+import TourPackagesTable from "./TourPackagesTable";
 //  import ProductDetails from "./ProductDetails.module";
 //  import Product from "./Product";
 // import Button from "./Button";
@@ -13,18 +11,18 @@ import Footer from "./footer";
  function Landingpage(){
     return ( 
     <>
-<<<<<<< HEAD
+
     {/* <Button/> */}
     {/* <ProductDetails/> */}
     {/* <Product/>*/}
-=======
     {/* <Button/>
      <ProductDetails/>
     <Product/> */}
->>>>>>> save-local-work
      <Navigationbar/>
     <Herosection/>
     <Destinations/> 
+    <Tours/>
+    <TourPackagesTable/>
     <Footer/>  
     
       </>
